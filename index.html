@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giải mã Mật Thư</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Giải mã Mật Thư</h1>
+
+        <label for="inputText">Nhập văn bản hoặc số:</label>
+        <input type="text" id="inputText" placeholder="Nhập mật thư...">
+        
+        <button onclick="decodeTelex()">Giải mã Telex</button>
+        <button onclick="decodeNumbers()">Giải mã Số thành Chữ</button>
+        <button onclick="reverseText()">Đọc Ngược</button>
+        <button onclick="decodeSubstitution()">Chữ Thay Chữ</button>
+
+        <h2>Kết quả:</h2>
+        <p id="outputText"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
