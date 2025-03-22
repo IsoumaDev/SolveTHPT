@@ -26,7 +26,7 @@ function decodeNumbers() {
 // ĐỌC NGƯỢC chuỗi
 function reverseText() {
     let text = document.getElementById("inputText").value;
-    document.getElementById("outputText").innerText = text.split("").reverse().join("");
+    document.getElementById("outputText").innerText = text;
 }
 
 // GIẢI MÃ CHỮ THAY CHỮ
